@@ -1,3 +1,4 @@
+// Laboratoire 1 - Samy Tetrault 
 const path = require('path');
 const fs = require('fs');
 module.exports =
