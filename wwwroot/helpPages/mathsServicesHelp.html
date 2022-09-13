@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documentation api/maths</title>
+</head>
+<body>
+    <h1>Service /api/maths - Documentation</h1>
+    <dl>
+        <dt>Sum | +</dt>
+        <dd>
+            <ul>
+                <li>? op = + & x = number & y = number</li>
+                <li>return {"op":+,"x":number,"y":number,"answer": x + y}</li>
+            </ul>
+        </dd>
+
+        <dt>Difference | -</dt>
+        <dd>
+            <ul>
+                <li>? op = - & x = number & y = number</li>
+                <li>return {"op":-,"x":number,"y":number,"answer": x - y}</li>
+            </ul>
+        </dd>
+
+        <dt>Product | *</dt>
+        <dd>
+            <ul>
+                <li>? op = * & x = number & y = number</li>
+                <li>return {"op":*,"x":number,"y":number,"answer": x * y}</li>
+            </ul>
+        </dd>
+
+        <dt>Quotient | /</dt>
+        <dd>
+            <ul>
+                <li>? op = / & x = number & y = number</li>
+                <li>return {"op":/,"x":number,"y":number,"answer": x / y}</li>
+            </ul>
+        </dd>
+
+        <dt>Modulo | %</dt>
+        <dd>
+            <ul>
+                <li>? op = % & x = number & y = number</li>
+                <li>return {"op":%,"x":number,"y":number,"answer": x % y}</li>
+            </ul>
+        </dd>
+
+        <dt>Factorial | !</dt>
+        <dd>
+            <ul>
+                <li>? op = ! & n = integer</li>
+                <li>return {"op":!,"n":integer,"answer": n!}</li>
+            </ul>
+        </dd>
+
+        <dt>Prime Number | p</dt>
+        <dd>
+            <ul>
+                <li>? op = p & n = integer</li>
+                <li>return {"op":p,"n":integer,"answer": true if n is a prime number}</li>
+            </ul>
+        </dd>
+
+        <dt>Nth Prime Number | p</dt>
+        <dd>
+            <ul>
+                <li>? op = np & n = integer</li>
+                <li>return {"op":np,"n":integer,"answer": nth prime number}</li>
+            </ul>
+        </dd>
+
+    </dl>
+</body>
+</html>
